@@ -1,0 +1,7 @@
+{
+	"synced_dirs": {
+		"/Users/eric/path/to/local/dir/": {
+			"remote": "cdfuser@cdf.toronto.edu:/h/u17/g5/00/cdfuser/path/to/remote/"
+		}
+	}
+}
