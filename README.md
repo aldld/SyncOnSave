@@ -10,6 +10,7 @@ To install, simply copy this to your Sublime Text Packages directory. For every 
             "remote": "cdfuser@something.com:/path/to/remote/dir/"
         }
     }
-}```
+}
+```
 
 In order for this plugin to work correctly, you must first setup your SSH account to recognize your SSH key, so that you can login without having to enter your password.
