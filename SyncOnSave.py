@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import sublime, sublime_plugin
 import subprocess
 import threading
@@ -21,7 +23,7 @@ class SyncOnSaveCommand(sublime_plugin.EventListener):
                 cmd = base_cmd.format(synced_dir, remote)
 
                 if DEBUG:
-                    print cmd
+                    print(cmd)
 
                 # Execute rsync in a new thread, to avoid noticeable network lag on save.
                 thread = threading.Thread(target=subprocess.call, args=(cmd,), kwargs={"shell": True})
